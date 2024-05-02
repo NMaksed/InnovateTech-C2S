@@ -1,9 +1,8 @@
 # InnovaTech
 
-As cores foram escolhidas beaseadas nesse artigo: https://www.artcobell.com/en-us/blog/color-psychology-for-education-blue
----
+InnovaTech é um aplicativo desenvolvido com React Native e Expo, focado na educação e tecnologia. As cores escolhidas para o aplicativo foram baseadas no artigo [Color Psychology for Education](https://www.artcobell.com/en-us/blog/color-psychology-for-education-blue), que explora a psicologia das cores no contexto educacional.
 
-## Como Rodar o Aplicativo
+## 🚀 Como Rodar o Aplicativo
 
 ### Pré-requisitos
 
@@ -27,11 +26,15 @@ As cores foram escolhidas beaseadas nesse artigo: https://www.artcobell.com/en-u
    ```
 4. Inicie o servidor de desenvolvimento:
    ```
-   expo start
+   npm start
    ```
 5. Abra o aplicativo no seu dispositivo ou emulador.
 
-## Estrutura do Projeto
+## Recomendação
+
+Os testes foram feitos pelo aplicativo "Expo Go" basta intalar, conectar os aparelhos no mesmo WIFI e ler o QRCode disponibilizado no terminal.
+
+## 📁 Estrutura do Projeto
 
 A estrutura do projeto é organizada da seguinte forma:
 
@@ -43,21 +46,16 @@ A estrutura do projeto é organizada da seguinte forma:
 - `assets/`: Contém imagens, ícones e outros recursos estáticos.
 - `app.json`: Configuração do aplicativo Expo.
 
-## Como o Aplicativo Foi Montado
+## 🛠️ Como o Aplicativo Foi Montado
 
-O aplicativo InnovaTech foi desenvolvido utilizando React Native, Expo e a Api RandomUser.
+O aplicativo InnovaTech foi desenvolvido utilizando React Native, Expo e a API RandomUser. A estrutura do projeto foi organizada de forma modular, com componentes reutilizáveis e telas bem definidas, facilitando a manutenção e a escalabilidade do aplicativo.
 
-A estrutura do projeto foi organizada de forma modular, com componentes reutilizáveis e telas bem definidas, facilitando a manutenção e a escalabilidade do aplicativo.
+## 🎯 Features
 
-## Features
+- Filtragem de alunos por gênero na tela de listagem.
+- Uso de `useContext` para armazenar o nome da empresa, evitando repetição de código.
+- Manipulação de dados em cache com `AsyncStorage`.
 
-Na tela que lista os alunos, é possível filtrar por gênero no campo de busca, preenchendo com "male" ou "female" e pressionando o icone de filtro.  
+## ⚠️ Importante
 
-Foi usado useContext para salvar nome da empresa, para a longo prazo evitar repetição de código.
-
-Foi usado AsyncStorage para monipulação de dados em cache.
-
-## Importante!!
-
-O aplicativo foi totalmente testado e comprovado funcionamente em ambiente Android (SAMSUNG S20 FE).# C2S-InnovateTech
-# InnovateTech-C2S
+O aplicativo foi totalmente testado e comprovado funcionando em ambiente Android (SAMSUNG S20 FE).
