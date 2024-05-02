@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "InnovateTech",
+    "slug": "InnovateTech",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/innovatetech.jpeg",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/innovatetech.jpeg",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.nathan_grecco.InnovateTech"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "f5e4d4ce-ab20-4637-a85b-6955b0b6cd35"
+      }
+    }
+  }
+}
