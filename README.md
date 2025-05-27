@@ -14,7 +14,7 @@ InnovaTech é um aplicativo desenvolvido com React Native e Expo, focado na educ
 
 1. Clone o repositório:
    ```
-   git clone https://github.com/NMaksed/C2S.git
+   git clone https://github.com/NMaksed/InnovateTech-C2S.git
    ```
 2. Navegue até a pasta do projeto:
    ```
