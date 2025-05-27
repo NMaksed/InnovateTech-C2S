@@ -18,7 +18,7 @@ InnovaTech é um aplicativo desenvolvido com React Native e Expo, focado na educ
    ```
 2. Navegue até a pasta do projeto:
    ```
-   cd InnovateTech-C2S/InnovaTech
+   cd InnovateTech-C2S/InnovateTech
    ```
 3. Instale as dependências:
    ```
